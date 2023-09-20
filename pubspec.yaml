@@ -1,0 +1,70 @@
+name: app
+description: A new Flutter project.
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  cupertino_icons: ^1.0.2
+  carousel_slider: ^4.0.0
+  firebase_core_platform_interface: 4.8.0
+  firebase_core: ^2.14.0
+  firebase_auth: ^4.6.3
+  firebase_storage: ^11.2.3
+  cloud_firestore: ^4.8.1
+  shared_preferences: ^2.0.12
+  geocoding: ^2.0.2
+  google_maps_flutter: ^2.1.1
+  geolocator: ^9.0.1
+  image_picker: ^0.8.4+5
+  provider: ^6.0.2
+  cloud_functions: ^4.3.3
+  tcard: ^1.3.5
+  flutter_svg: ^1.0.3
+  table_calendar: ^3.0.5
+  agora_rtc_engine: ^5.0.1
+  permission_handler: ^10.0.0
+  cached_network_image: ^3.2.0
+#  in_app_purchase: ^3.0.5
+  url_launcher: ^6.1.4
+  webview_flutter: ^3.0.4
+  rflutter_alert: ^2.0.4
+  google_fonts:
+  timeago:
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
+  flutter_test:
+    sdk: flutter
+#  flutter_launcher_icons_maker: "^0.10.1"
+
+  flutter_lints: ^1.0.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/TOLogo.png"
+  adaptive_icon_background: "#142E1A"
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+  fonts:
+    - family: Aliqa
+      fonts:
+        - asset: fonts/Aliqa.ttf
+  
+    - family: Segoe UI
+      fonts:
+        - asset: fonts/Segoe UI BOLD.ttf
+        - asset: fonts/Segoe UI.ttf
+    - family: CustomWeSwipeIcons
+      fonts:
+        - asset: icons/CustomWeSwipeIcons.ttf

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "324851697991",
+    "project_id": "weswipe-ee470",
+    "storage_bucket": "weswipe-ee470.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:324851697991:android:2075a67e4c58721c4c2462",
+        "android_client_info": {
+          "package_name": "com.weswipe.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "324851697991-hl7gvvf0dg6j65kj7mkkvmo0fnj4ttbg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.weswipe.app",
+            "certificate_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+          }
+        },
+        {
+          "client_id": "324851697991-g1tshn3g5tm7lt632226q10i7300sk9u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtO2KpJ-4qle3vlsFN9RbJX-5nZguFkYg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "324851697991-g1tshn3g5tm7lt632226q10i7300sk9u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
